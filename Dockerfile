@@ -12,6 +12,7 @@ ARG DOCKER_GID
 RUN mkdir /run/sshd
 RUN apt-get update
 RUN apt-get -y install ca-certificates curl gnupg openssh-server sudo
+RUN echo "Port 2222" >> /etc/ssh/sshd_config
 RUN echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
 
 # install docker-ce-cli
