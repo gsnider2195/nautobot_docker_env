@@ -3,7 +3,7 @@ curl
 dnsutils
 git
 less
-locales
+locales-all
 man-db
 net-tools
 patch
