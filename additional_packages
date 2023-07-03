@@ -7,4 +7,4 @@ net-tools
 dnsutils
 patch
 git
-
+bash-completion
