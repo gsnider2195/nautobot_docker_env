@@ -6,6 +6,7 @@ less
 locales-all
 man-db
 net-tools
+npm
 patch
 vim
 wget
